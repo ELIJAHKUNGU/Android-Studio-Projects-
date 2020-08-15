@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c5c0f5"
+    android:layout_height="match_parent"
+    tools:context=".Phonecall">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c2eed"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:text="Blue call and text App"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="#f2fcfafa"
+        android:ems="10"
+        android:textColor="#0c2ad1"
+        android:hint="Enter phone number to call"
+        android:inputType="phone"
+        android:padding="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="odp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="143dp"
+            android:background="#0723a1"
+            android:text="Dial" />
+        <Button
+            android:id="@+id/btnMakeCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="143dp"
+            android:background="#0723a1"
+            android:text="Call" />
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/edtSms"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="127dp"
+        android:background="#0f7af4"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Text to send"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:background="#0723a1"
+        android:text="Sms"
+        android:textColor="#f1e9e9" />
+</RelativeLayout>

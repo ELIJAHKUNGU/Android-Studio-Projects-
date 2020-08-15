@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="coffee">Cofee</string>
+    <string name="Tea">Tea</string>
+    <string name="Mandizi">Mandizi</string>
+    <string name="Sausage">Sausage</string>
+    <string name="dialog_message">Welcome to the Dialog</string>
+    <string name="dialog_title">Close PopUp</string>
+    <string name="close_app_message">Do you want to close this Application</string>
+
+
+</resources>

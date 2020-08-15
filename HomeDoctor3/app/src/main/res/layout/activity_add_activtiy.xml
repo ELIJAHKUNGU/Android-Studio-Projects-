@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".AddActivtiy">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:fontFamily="cursive"
+        android:text="Add a Service  "
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/MainService"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="Main Service .ie.Cancer"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/ServiceOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint=" Service .ie.Radiography "
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/ServiceTwo"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint=" Service .ie.Chemotherapy "
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/ServiceThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="Service .ie.Screening "
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/MoreDetails"
+            android:layout_width="398dp"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="More details"
+            android:inputType="text"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <Button
+            android:id="@+id/aSubmit"
+            android:layout_gravity="center"
+            android:layout_width="229dp"
+            android:background="@drawable/blue"
+            android:fontFamily="cursive"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:onClick="ClearPage"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:text="Clear page" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

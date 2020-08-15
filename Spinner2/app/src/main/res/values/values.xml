@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cars">
+        <item>Prado</item>
+        <item>Vitz</item>
+        <item>Raum</item>
+        <item>Hammer</item>
+        <item>New Ford</item>
+        <item>Ferrari</item>
+        <item>Range Rover Sports</item>
+        <item>limo</item>
+    </string-array>
+</resources>

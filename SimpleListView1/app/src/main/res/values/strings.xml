@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple List View1</string>
+    <string-array name="movies">
+        <item>All American</item>
+        <item>the brave</item>
+        <item>seal team</item>
+        <item>the unit</item>
+        <item>the elite</item>
+        <item>riverdale</item>
+        <item>famous in love</item>
+        <item>arrow</item>
+        <item>end game</item>
+        <item>civil war</item>
+    </string-array>
+</resources>

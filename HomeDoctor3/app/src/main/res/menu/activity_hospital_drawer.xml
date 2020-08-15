@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:onClick="Home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/Add"
+            android:onClick="AddService"
+            android:icon="@drawable/ic_add"
+            android:title="@string/menu_Add" />
+        <item
+            android:id="@+id/View"
+            android:icon="@drawable/ic_view"
+            android:title="@string/menu_View" />
+        <item
+            android:id="@+id/delete"
+
+            android:icon="@drawable/ic_delete"
+            android:title="@string/menu_Delete" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_account"
+            android:title="@string/Account" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/call"
+                android:onClick="callService"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/message"
+                android:onClick="textService"
+                android:icon="@drawable/ic_message"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

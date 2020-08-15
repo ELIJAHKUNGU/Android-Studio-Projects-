@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Home Doctor</string>
+    <string name="title_activity_categories">CategoriesActivity</string>
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_message">Message</string>
+    <string name="doctor">Home Doctor</string>
+    <string name="home_doctor">Home Doctor</string>
+
+
+    <string name="title_activity_hosipital">HosipitalActivity</string>
+    <string name="menu_Home">Home</string>
+    <string name="menu_Add">Add</string>
+    <string name="menu_Delete">Delete</string>
+    <string name="menu_View">View</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="Account">Account</string>
+    <string name="communicate">Communicate</string>
+
+
+    <string name="Name">Name: </string>
+    <string name="Email">Email: </string>
+    <string name="Phonenumber">Phonenumber: </string>
+    <string name="Location">Location: </string>
+    <string name="More_details">MoreDetails: </string>
+
+
+    <string name="Main_Service">Main Service:</string>
+    <string name="Service_1">Service_1 </string>
+    <string name="Service_2">Service_2 </string>
+    <string name="Service_3">Service_3 </string>
+    <string name="MoreDetails">MoreDetails: </string>
+
+
+
+</resources>

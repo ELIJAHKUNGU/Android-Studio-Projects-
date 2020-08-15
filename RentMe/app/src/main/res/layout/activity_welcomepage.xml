@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcomepage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="104dp"
+            android:gravity="center"
+            android:text="About the App"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="293dp"
+            android:gravity="center"
+            android:text="The app is project developed by four students the core goal was to help student to get
+accommodation.School accommodation was not enough so the opted to find way to resolve the problem.
+They designed an app where student could look for rental houses near the school."
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <Button
+            android:layout_width="179dp"
+            android:layout_height="62dp"
+            android:onClick="categories"
+            android:text="Next"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

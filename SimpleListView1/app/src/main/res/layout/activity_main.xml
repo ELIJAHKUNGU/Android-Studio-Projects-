@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e25252"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#4bf1a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple list view" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:entries="@array/movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

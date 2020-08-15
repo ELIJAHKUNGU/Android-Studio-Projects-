@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lists</string>
+    <string-array name="programming_languages">
+
+        <item>Android</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Python</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Klotin</item>
+
+    </string-array>
+
+</resources>

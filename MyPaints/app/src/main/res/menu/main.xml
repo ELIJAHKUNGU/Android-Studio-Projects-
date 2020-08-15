@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/normal"
+        app:showAction="never"
+        android:title="Normal"/>
+
+    <item
+        android:id="@+id/emboss"
+        app:showAction="never"
+        android:title="Emboss"/>
+    <item
+        android:id="@+id/blur"
+        app:showAction="name"
+        android:title="Blur"/>
+    <item
+        android:id="@+id/Clear"
+        app:showAction="never"
+        android:title="Normal"/>
+</menu>

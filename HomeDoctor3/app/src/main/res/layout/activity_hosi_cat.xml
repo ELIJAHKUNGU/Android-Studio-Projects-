@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HosiCat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/hosi"
+            android:layout_width="239dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:background="@drawable/back"
+            android:onClick="btnNewUser"
+            android:text="New User" />
+
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="239dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:background="@drawable/blue"
+            android:onClick="BtnExsting"
+
+            android:text="Existing User" />
+    </LinearLayout>
+</RelativeLayout>

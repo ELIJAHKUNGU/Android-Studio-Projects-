@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlagChrome</string>
+    <string-array name="countries">
+        <item>Kenya</item>
+        <item>Tanzania</item>
+        <item>Uganda</item>
+        <item>south africa</item>
+        <item>Iran</item>
+        <item>Afganistan</item>
+        <item>Malawi</item>
+        <item>argentina</item>
+    </string-array>
+</resources>

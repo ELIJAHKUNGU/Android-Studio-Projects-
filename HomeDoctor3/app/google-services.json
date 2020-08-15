@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "821786791388",
+    "firebase_url": "https://home-doctor-685e9.firebaseio.com",
+    "project_id": "home-doctor-685e9",
+    "storage_bucket": "home-doctor-685e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821786791388:android:e6016b63b84cca57",
+        "android_client_info": {
+          "package_name": "com.vibration.homedoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821786791388-fqfehjbdb5btgbevmjsh3kv1v1rq941m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibration.homedoctor",
+            "certificate_hash": "5f7387e720b35043a7e3cba26c282be26b51a488"
+          }
+        },
+        {
+          "client_id": "821786791388-or5c9biiarvfmoidkcr6heoleacg8617.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsD5em7KTbvPVowxQskW7Y19ZDhMYX7es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821786791388-or5c9biiarvfmoidkcr6heoleacg8617.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

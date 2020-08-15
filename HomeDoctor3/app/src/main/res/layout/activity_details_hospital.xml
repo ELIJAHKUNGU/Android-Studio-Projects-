@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".activities.models.DetailsHospitalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/AppTheme.AppBarOverlay"
+            android:layout_width="368dp"
+            android:layout_height="102dp"
+            android:fontFamily="cursive"
+            android:text=" Hospital Details "
+            android:textAlignment="center"
+            android:layout_gravity="center"
+
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="Name of Hospital ie.Aga Khan"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="21sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="agakhan@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textSize="21sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="342dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="Location ie Nairobi,Westlands,Opposite to Oracle"
+            android:inputType="textLongMessage"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <EditText
+            android:id="@+id/etMoreDetails"
+            android:layout_width="401dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:hint="More Details"
+            android:inputType="textLongMessage"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <ImageView
+            android:id="@+id/IMAGE"
+            android:layout_width="311dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnchoose"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:onClick="Uploads"
+            android:text="uploadPhoto" />
+
+
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="171dp"
+            android:onClick="SUBMIT"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+
+
+        <Button
+            android:id="@+id/btnExisting"
+            android:layout_width="290dp"
+            android:onClick="Exsting"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Already have Account" />
+
+
+    </LinearLayout>
+
+</ScrollView>
